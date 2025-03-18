@@ -1,0 +1,51 @@
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-text: #333;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-banner {
+    text-align: center;
+}
+
+.input-section {
+    margin-top: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-name {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.button-add, .button-draw {
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.name-list, .result-list {
+    list-style-type: none;
+    padding: 0;
+}
