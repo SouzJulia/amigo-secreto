@@ -15,6 +15,7 @@ function adicionarAmigo() {
     atualizarLista();
     console.log('Nome capturado: ', nome);
     return nome;
+    
 }
 
 // Função para limpar o campo
@@ -45,4 +46,9 @@ function sortearAmigo() {
     resultado.innerHTML = `<li>O amigo secreto é: ${amigoSorteado}</li>`;
 }
 
-// Função para limpar a
+// Função para limpar a lista e recomeçar o sorteio
+function limparLista() {
+    amigosInseridos = [];
+    atualizarLista();
+    resultado.innerHTML = '';
+}
