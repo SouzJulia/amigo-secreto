@@ -29,15 +29,6 @@ O foco principal foi a implementação da lógica em **JavaScript**, utilizando 
 
 ## ▶️ Como Executar o Projeto
 
-1. Clone o repositório:
+1. Entre nesse meu link para ver o projeto funcionando:
    ```bash
-   git clone https://github.com/SouzJulia/amigo-secreto
-
-2. Abra o arquivo `index.html` no seu navegador web.
-
-## 🤝 Como Contribuir
-- Faça um fork do projeto
-- Implemente melhorias ou novas funcionalidades
-- Envie um pull request
-
-### 💡 Contribuições são sempre bem-vindas!
+   git clone https://souzjulia.github.io/amigo-secreto/
